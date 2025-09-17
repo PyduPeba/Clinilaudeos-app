@@ -1,0 +1,33 @@
+/* frontend/src/components/Sidebar.css */
+.sidebar {
+  width: 220px;
+  background: #6c63ff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.sidebar h3 {
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.sidebar button {
+  background: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
